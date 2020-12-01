@@ -5,7 +5,7 @@ Vue.use(VueRouter); //安装插件
 
 export const constantRouterMap = [
     //配置默认的路径，默认显示登录页
-    { path: '/', component: () => import('@/views/login')},
+    { path: '/', component: () => import('@/views/config')},
 
     //配置登录成功页面，使用时需要使用 path 路径来实现跳转
     { path: '/success', component: () => import('@/views/success')},
